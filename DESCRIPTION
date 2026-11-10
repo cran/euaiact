@@ -1,0 +1,28 @@
+Package: euaiact
+Type: Package
+Title: Offline Calculation and Logic Rules for the EU Artificial
+        Intelligence Act
+Version: 0.1.1
+Authors@R: c(person("Dimitrios", "Geromichalos", email = "riskdatascience@web.de",
+    role = c("aut", "cre"), comment = "Dr."),
+    person("RiskDataScience GmbH", role = "cph"))
+Description: Native offline evaluation of explicit calculation and logic rules
+    for documented versions of the EU Artificial Intelligence Act. Supports
+    German identifiers, unknown facts and traceable decisions. Explicitly bounded
+    rule catalogue based on European Parliament and Council (2024)
+    <https://eur-lex.europa.eu/eli/reg/2024/1689/oj>; evaluation of a factual
+    condition is not a conformity assessment.
+License: Apache License (== 2.0)
+Encoding: UTF-8
+Language: de
+Depends: R (>= 4.1.0)
+Imports: jsonlite, stats
+URL: https://github.com/rds0001/euaiact-r
+BugReports: https://github.com/rds0001/euaiact-r/issues
+NeedsCompilation: no
+Packaged: 2026-10-26 08:13:15 UTC; qwert123
+Author: Dimitrios Geromichalos [aut, cre] (Dr.),
+  RiskDataScience GmbH [cph]
+Maintainer: Dimitrios Geromichalos <riskdatascience@web.de>
+Repository: CRAN
+Date/Publication: 2026-11-10 17:20:02 UTC
